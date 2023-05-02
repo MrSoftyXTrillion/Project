@@ -1,0 +1,519 @@
+/* COMMON CSS STARTS HERE */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+:root {
+    --backgroundcolor: #0d1323;
+    --blue: #5746ea;
+    --mediumdarkblue:#1d204b;
+    --orange:#ff8b64;
+    --textcolor:#c6c9d2;
+    --green:#4bcf83;
+    --lightblue:#56c2e6;
+    --purple:#7234d1;
+    --pinkish:#ff5e7d;
+    --yellow:#f1c75b;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--backgroundcolor);
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    width: 952px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* COMMON CSS ENDS HERE */
+
+/* MAIN PROJECT STARTS HERE */
+
+#project{
+
+}
+#project .info{
+    width: 30%;
+    z-index: 1;
+    height: 100%;
+}
+#project .info .DWM .personalinfo {
+    background-color: var(--blue);
+    border-radius: 20px;
+}
+#project .info .DWM .personalinfo img {
+    padding: 50px 120px 18px 25px;
+    display: inline-block;
+}
+#project .info .DWM .personalinfo .RPTFR {
+    font-size: 10px;
+    color: var(--textcolor);
+    padding: 18px 130px 15px 25px;
+    display: block;
+}
+#project .info .DWM .personalinfo  .frstname {
+    font-size: 30px;
+    color: var(--textcolor);
+    padding: 0px 72px 15px 25px;
+    display: block;
+}
+#project .info .DWM .personalinfo .lastname {
+    font-size: 30px;
+    color: var(--textcolor);
+    padding: 0px 72px 77px 25px;
+    display: block;
+}
+#project .info .DWM {
+    background-color: var(--mediumdarkblue);
+    border-radius: 0 0 20px 20px;
+    z-index: -1;
+    bottom: -169px;
+    width: 100%;
+    border-radius: 20px;
+}
+#project .info .DWM .daily {
+    font-size: 20px;
+    color: var(--blue);
+    display: inline-block;
+    padding: 25px 156px 12px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .info .DWM .daily:hover {
+    color: var(--textcolor)
+}
+#project .info .DWM .weekly {
+    font-size: 20px;
+    color: var(--blue);
+    display: block;
+    padding: 12px 156px 12px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .info .DWM .weekly:hover {
+    color: var(--textcolor)
+}
+#project .info .DWM .monthly {
+    font-size: 20px;
+    color: var(--blue);
+    display: block;
+    padding: 12px 156px 28px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .info .DWM .monthly:hover {
+    color: var(--textcolor)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#project .timetable{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+#project .timetable .work {
+    width: calc(33.33% - 10px);
+    margin-left: 10px;
+}
+
+#project .timetable .work .back{
+    background-color: var(--orange);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#project .timetable .work .back .icon{
+    color: orangered;
+    margin-right: 20px;
+    font-size: 30px;
+}
+#project .timetable .work .front{
+    background-color: var(--mediumdarkblue);
+    border-radius: 20px;
+}
+#project .timetable .work .front .text1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--textcolor);
+    display: inline;
+    text-align: left;
+    width: 70%;
+    margin: 28px 49px 0px 26px;
+}
+#project .timetable .work .front .icon {
+    display: inline-block;
+    width: 30%;
+    margin: 28px 28px 0px -9px;
+    line-height: 2px;
+    color: var(--textcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .timetable .work .front .icon:hover {
+    color: red;
+}
+#project .timetable .work .front .text2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 0px 26px;
+}
+#project .timetable .work .front .text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 18px 0 57px 26px;
+}
+#project .timetable .play {
+    width: calc(33.33% - 10px);
+    height: 50%;
+    margin-left: 10px;
+}
+#project .timetable .play .back{
+    background-color: var(--lightblue);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#project .timetable .play .back .icon{
+    color: rgb(45, 122, 185);
+    margin-right: 20px;
+    font-size: 30px;
+}
+#project .timetable .play .front{
+    background-color: var(--mediumdarkblue);
+    border-radius: 20px;
+}
+#project .timetable .play .front .text1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--textcolor);
+    display: inline;
+    text-align: left;
+    width: 70%;
+    margin: 28px 49px 0px 26px;
+}
+#project .timetable .play .front .icon {
+    display: inline-block;
+    width: 30%;
+    margin: 28px 28px 0px -9px;
+    line-height: 2px;
+    color: var(--textcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .timetable .play .front .icon:hover {
+    color: red;
+}
+#project .timetable .play .front .text2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 0px 26px;
+}
+#project .timetable .play .front .text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 18px 0 57px 26px;
+}
+#project .timetable .study {
+    width: calc(33.33% - 10px);
+    height: 50%;
+    margin-left: 10px;
+}
+#project .timetable .study .back{
+    background-color: var(--pinkish);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#project .timetable .study .back .icon{
+    color: rgb(226, 27, 70);
+    margin-right: 20px;
+    font-size: 30px;
+}
+#project .timetable .study .front{
+    background-color: var(--mediumdarkblue);
+    border-radius: 20px;
+}
+#project .timetable .study .front .text1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--textcolor);
+    display: inline;
+    text-align: left;
+    width: 70%;
+    margin: 28px 30px 0px 26px;
+}
+#project .timetable .study .front .icon {
+    display: inline-block;
+    width: 30%;
+    margin: 28px 37px 0px -9px;
+    line-height: 2px;
+    color: var(--textcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .timetable .study .front .icon:hover {
+    color: red;
+}
+#project .timetable .study .front .text2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 0px 26px;
+}
+#project .timetable .study .front .text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 18px 0 57px 26px;
+}
+#project .timetable .exercise {
+    width: calc(33.33% - 10px);
+    height: 50%;
+    margin-left: 10px;
+}
+#project .timetable .exercise .back{
+    background-color: var(--green);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#project .timetable .exercise .back .icon{
+    color: rgb(7, 146, 95);
+    margin-right: 20px;
+    font-size: 30px;
+}
+#project .timetable .exercise .front{
+    background-color: var(--mediumdarkblue);
+    border-radius: 20px;
+}
+#project .timetable .exercise .front .text1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--textcolor);
+    display: inline;
+    text-align: left;
+    width: 70%;
+    margin: 28px 0px 0px 26px;
+}
+#project .timetable .exercise .front .icon {
+    display: inline-block;
+    width: 30%;
+    margin: 28px 35px 0px -9px;
+    line-height: 2px;
+    color: var(--textcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .timetable .exercise .front .icon:hover {
+    color: red;
+}
+#project .timetable .exercise .front .text2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 0px 26px;
+}
+#project .timetable .exercise .front .text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 18px 0 57px 26px;
+}
+#project .timetable .social {
+    width: calc(33.33% - 10px);
+    height: 50%;
+    margin-left: 10px;
+}
+#project .timetable .social .back{
+    background-color: var(--purple);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#project .timetable .social .back .icon{
+    color: rgb(167, 105, 225);
+    margin-right: 20px;
+    font-size: 30px;
+}
+#project .timetable .social .front{
+    background-color: var(--mediumdarkblue);
+    border-radius: 20px;
+}
+#project .timetable .social .front .text1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--textcolor);
+    display: inline;
+    text-align: left;
+    width: 70%;
+    margin: 28px 22px 0px 26px;
+}
+#project .timetable .social .front .icon {
+    display: inline-block;
+    width: 30%;
+    margin: 28px 35px 0px -9px;
+    line-height: 2px;
+    color: var(--textcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .timetable .social .front .icon:hover {
+    color: red;
+}
+#project .timetable .social .front .text2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 0px 26px;
+}
+#project .timetable .social .front .text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 18px 0 57px 26px;
+}
+#project .timetable .selfcare {
+    width: calc(33.33% - 10px);
+    height: 50%;
+    margin-left: 10px;
+}
+#project .timetable .selfcare .back{
+    background-color: var(--yellow);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#project .timetable .selfcare .back .icon{
+    color: rgb(141, 130, 10);
+    margin-right: 20px;
+    font-size: 30px;
+}
+#project .timetable .selfcare .front{
+    background-color: var(--mediumdarkblue);
+    border-radius: 20px;
+}
+#project .timetable .selfcare .front .text1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--textcolor);
+    display: inline;
+    text-align: left;
+    width: 70%;
+    margin: 28px 0px 0px 26px;
+}
+#project .timetable .selfcare .front .icon {
+    display: inline-block;
+    width: 30%;
+    margin: 28px 15px 0px 0px;
+    line-height: 2px;
+    color: var(--textcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#project .timetable .selfcare .front .icon:hover {
+    color: red;
+}
+#project .timetable .selfcare .front .text2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 0px 26px;
+}
+#project .timetable .selfcare .front .text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--textcolor);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 18px 0 57px 26px;
+}
+/* MAIN PROJECT ENDS HERE */
